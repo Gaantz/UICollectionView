@@ -13,6 +13,7 @@
 		400E5E6B1B4D78CE004D552F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 400E5E6A1B4D78CE004D552F /* Images.xcassets */; };
 		400E5E6E1B4D78CE004D552F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 400E5E6C1B4D78CE004D552F /* LaunchScreen.xib */; };
 		400E5E7A1B4D78CE004D552F /* GrillasTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 400E5E791B4D78CE004D552F /* GrillasTests.m */; };
+		4055A07B1B4DC98800A9B0C3 /* CustomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4055A07A1B4DC98800A9B0C3 /* CustomViewController.m */; };
 		406ED5EC1B4DBB8000C5C129 /* CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 406ED5EB1B4DBB8000C5C129 /* CollectionViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +39,8 @@
 		400E5E731B4D78CE004D552F /* GrillasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GrillasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		400E5E781B4D78CE004D552F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		400E5E791B4D78CE004D552F /* GrillasTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GrillasTests.m; sourceTree = "<group>"; };
+		4055A0791B4DC98800A9B0C3 /* CustomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomViewController.h; sourceTree = "<group>"; };
+		4055A07A1B4DC98800A9B0C3 /* CustomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomViewController.m; sourceTree = "<group>"; };
 		406ED5EA1B4DBB8000C5C129 /* CollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewController.h; sourceTree = "<group>"; };
 		406ED5EB1B4DBB8000C5C129 /* CollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -83,12 +86,12 @@
 			children = (
 				400E5E611B4D78CE004D552F /* AppDelegate.h */,
 				400E5E621B4D78CE004D552F /* AppDelegate.m */,
+				4055A0791B4DC98800A9B0C3 /* CustomViewController.h */,
+				4055A07A1B4DC98800A9B0C3 /* CustomViewController.m */,
 				400E5E671B4D78CE004D552F /* Main.storyboard */,
 				400E5E6A1B4D78CE004D552F /* Images.xcassets */,
 				400E5E6C1B4D78CE004D552F /* LaunchScreen.xib */,
 				400E5E5D1B4D78CE004D552F /* Supporting Files */,
-				406ED5EA1B4DBB8000C5C129 /* CollectionViewController.h */,
-				406ED5EB1B4DBB8000C5C129 /* CollectionViewController.m */,
 			);
 			path = Grillas;
 			sourceTree = "<group>";
@@ -96,6 +99,8 @@
 		400E5E5D1B4D78CE004D552F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				406ED5EA1B4DBB8000C5C129 /* CollectionViewController.h */,
+				406ED5EB1B4DBB8000C5C129 /* CollectionViewController.m */,
 				400E5E5E1B4D78CE004D552F /* Info.plist */,
 				400E5E5F1B4D78CE004D552F /* main.m */,
 			);
@@ -222,6 +227,7 @@
 				406ED5EC1B4DBB8000C5C129 /* CollectionViewController.m in Sources */,
 				400E5E631B4D78CE004D552F /* AppDelegate.m in Sources */,
 				400E5E601B4D78CE004D552F /* main.m in Sources */,
+				4055A07B1B4DC98800A9B0C3 /* CustomViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
